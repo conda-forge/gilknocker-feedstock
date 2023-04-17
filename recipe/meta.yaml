@@ -1,5 +1,5 @@
 {% set name = "gilknocker" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gilknocker-{{ version }}.tar.gz
-  sha256: 6fa39689e3ddfc9c5a4bbb8684a7a3d0706e40c207d26679edc634c0c4a721d5
+  sha256: 0a9ce42b50221e8ea9572e28847ec46a1a527124a25e6f6f7a0f1d2668c9241c
 
 build:
   number: 0

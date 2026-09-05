@@ -13,7 +13,7 @@ source:
   git_rev: 81f2bc6f6ec865a1c98f70a73aa5197f3d537bde  # v0.4.2
 
 build:
-  number: 0
+  number: 1
   script:
     # PyPy has weird sysconfigdata name
     - rm -f $PREFIX/lib/pypy$PY_VER/_sysconfigdata.py  # [build_platform != target_platform and target_platform == "linux-ppc64le"]
